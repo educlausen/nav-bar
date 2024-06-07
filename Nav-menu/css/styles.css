@@ -1,0 +1,52 @@
+header {
+    background-color: #f0f0f0; /* Color de fondo del header */
+    padding: 20px; /* Espacio entre el contenido y el borde del header */
+    display: flex; /* Convierte el contenido en una fila */
+    align-items: center; /* Alinea los elementos verticalmente */
+  }
+  
+  .nav-dropdown {
+    position: relative; /* Posición relativa para el dropmenu */
+    display: inline-block; /* Muestra el botón del dropmenu en línea */
+  }
+  
+  .dropbtn {
+    background-color: #333; /* Color de fondo del botón del dropmenu */
+    color: #fff; /* Color del texto del botón del dropmenu */
+    padding: 10px; /* Espacio entre el texto y el borde del botón */
+    border: none; /* Quita el borde del botón */
+    cursor: pointer; /* Cambia el cursor a una mano */
+  }
+  
+  .dropdown-content {
+    display: none; /* Oculta el contenido del dropmenu */
+    position: absolute; /* Posición absoluta para el contenido del dropmenu */
+    background-color: #f9f9f9; /* Color de fondo del contenido del dropmenu */
+    min-width: 160px; /* Ancho mínimo del contenido del dropmenu */
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* Sombra del contenido del dropmenu */
+    z-index: 1; /* Eleva el contenido del dropmenu por encima de otros elementos */
+  }
+  
+  .dropdown-content a {
+    color: #333; /* Color del texto de los enlaces del dropmenu */
+    padding: 12px 16px; /* Espacio entre el texto y el borde de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    display: block; /* Muestra los enlaces en bloque */
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1; /* Color de fondo de los enlaces al pasar el mouse */
+  }
+  
+  .nav-dropdown:hover .dropdown-content {
+    display: block; /* Muestra el contenido del dropmenu al pasar el mouse */
+  }
+  
+  .logo {
+    margin: 0 20px; /* Espacio entre el logo y los demás elementos */
+  }
+  .logo img{width: 6.25rem;}
+  .icon {
+    font-size: 24px; /* Tamaño del icono */
+    margin: 0 20px; /* Espacio entre el icono y los demás elementos */
+  }
